@@ -1,8 +1,47 @@
 
 /* H1 tags */
-h1 { 
+h1.cvTitle { 
     background-color: rgb(50, 28, 70);
     color: white;
+    text-align: center;
     }
 
+h1.nameField{
+    background-color: rgb(96, 23, 163);
+    color: white;
+    outline-color: black;
+    text-align: center;
+}
 
+/* H2 Tags */
+h2.pictureField{
+    background-color: yellowgreen;
+    text-align: center;
+}
+
+h2.descriptionField{
+    background-color: rgb(130, 243, 187);
+    text-align: center;
+}
+
+/* Pictures*/
+img.profilePic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* DIVS */
+.contactMe{
+    display: grid;
+}
+
+
+/* BODY */
+body{
+    background-color: rgb(73, 169, 217);
+}
+
+strong{
+    font-style: oblique;
+}
